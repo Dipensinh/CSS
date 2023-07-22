@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    background-color: antiquewhite;
+}
+header{
+    background-color: white;
+    padding: 0 0;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    /* border: solid 2px; */
+}
+ul li{
+    display: inline-block;
+    margin: 20px;
+}
+.link a{
+    text-decoration: none; 
+    font-size: 20px;
+    color: black;
+    padding: 2px;
+
+}
+a:hover{
+    color: green;
+}
+.input{
+    border-radius: 50px;
+}        
