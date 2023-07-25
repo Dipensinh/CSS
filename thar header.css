@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    /* background-color: aqua;            */
+}
+header{
+    background: linear-gradient(120deg , black,grey);
+    padding: 0 10px;
+    /* position: fixed; */
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: solid 2px;          */        
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    
+}
+ul li{
+    display: inline-block;
+    margin: 10px;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+}
+.links i{
+    color: white;
+}
+.img{
+    margin: 0 auto;
+}            
