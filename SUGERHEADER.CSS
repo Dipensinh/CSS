@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: aqua;
+    padding: 2px 0;            
+}
+section{
+    background-color: antiquewhite;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link a{
+    text-decoration: none;            
+}
+ul li{
+    display: inline-block;
+}        
+.icon i{
+    display:inline;
+    margin: 10px;
+    font-size: 20px;
+}
+.input{
+    width: 250px;
+    height: 30px;
+    border-radius: 30px;
+} 
