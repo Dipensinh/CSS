@@ -1,0 +1,27 @@
+p::first-letter{
+    font-size: 100px;
+}
+p::first-line{
+    background-color: brown;
+}
+h1::after{
+    content: "#";   
+}
+h1::before{
+    content: "#";
+}
+p::selection{
+    background-color: aqua;
+}
+a:visited{
+    color: chocolate;
+}
+a:active{
+    color: hotpink;
+}
+input:focus{
+    background-color: blueviolet;
+}
+h1:hover{
+    color: red;
+}
