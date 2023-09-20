@@ -1,0 +1,50 @@
+#heading-container, #span-container{
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    display: inline-block;
+    background-color: #FAF0E6;
+    width: 500px;
+  /*height: 100px;*/
+    padding: 20px;
+    border-style: solid;
+    border-radius: 6px;
+  }
+  
+  /*------------------------*/
+  
+  /* Un-comment both of these selectors below to see what happens to the elements. To use a shortcut in doing this, highlight both selectors and use cmd + k if you are on mac. */
+  
+  /* #heading-one{
+    margin-bottom: 0;
+  }
+  
+  #heading-two{
+    margin-top: 0;
+  } */
+  
+  /* This is called Margin Collapsing. Originally the two elements shared margin space. Heading 1 had bottom margin that overlapped with heading 2's top margin. Setting their margins to 0 will collapse the margins. */
+  
+  /*------------------------*/
+  
+  span{
+    border-style: solid;
+    border-radius: 6px;
+    background-color: #F5F5DC;
+ 
+  #container{
+    background-color: lightBlue;
+    margin-top: 20px; /* This spaces this section lower than the inline elements so that they do not overlap */
+  }
+  
+  /* The div #content-wrapper has no semantic meaning, it is just used for styling purposes. */
+  
+  #content-wrapper{
+    padding: 10px;
+    width: 500px;
+    margin: 0 auto; /* margin here adjusts the div to the center of the page. It doesn't align the text to the center, so we have to use text-align: center; */
+    text-align:left;
+  }
