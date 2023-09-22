@@ -1,0 +1,31 @@
+.button {
+  background-color: orange;
+  border: 4px solid darkorange;
+  color: white;
+  padding: 8px;
+}
+
+.button:hover {
+  background-color: darkorange;
+}
+
+.button:focus {
+  background-color: cornflowerblue;
+}
+
+.button:active {
+  background-color: crimson;
+}
+
+.button:visited {
+  background-color: limegreen;
+}
+
+
+#paragraph {
+  
+}
+
+#paragraph:focus {
+  background-color: cornflowerblue;
+}
